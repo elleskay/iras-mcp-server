@@ -1,0 +1,17 @@
+{
+  "name": "iras-mcp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MCP server exposing IRAS Singapore tax tools",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test tests/server.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
